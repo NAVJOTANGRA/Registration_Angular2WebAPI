@@ -1,0 +1,49 @@
+﻿
+._firstname {
+    float: right;
+    margin-right: 80%
+}
+
+._MiddleName {
+    float: right;
+    margin-right: 80%
+}
+
+._UID {
+    float: right;
+    margin-right: 80%
+}
+
+._FatherName {
+    float: right;
+    margin-right: 80%
+}
+
+._MotherName {
+    float: right;
+    margin-right: 80%
+}
+
+._Country {
+    float: right;
+    margin-right: 87%
+}
+
+._State {
+    float: right;
+    margin-right: 86%
+}
+
+._City {
+    float: right;
+    margin-right: 87%
+}
+
+._radio {
+    float: right;
+    margin-right: 88%
+}
+
+.Main_Class {
+    background: rgb(225, 236, 204)
+}

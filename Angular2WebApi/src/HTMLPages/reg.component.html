@@ -1,0 +1,48 @@
+﻿
+<div class="Main_Class">
+    <br>
+    <!---=========================== Here Is Registration form Start  ===========================-->
+
+    <h2 >{{Title}}</h2>
+
+    Firstname:<input type="text" class="_firstname"     [(ngModel)]="firstName" placeholder="Enter First Name" required><br><br>
+    MiddleName:<input type="text" class="_MiddleName" [(ngModel)]="middleName" placeholder="Enter Middle Name" required><br><br>
+    UID:<input type="text" class="_UID" [(ngModel)]="_UId" required><br><br>
+    FatherName:<input type="text" class="_FatherName" [(ngModel)]="fatherName" required><br><br>
+    MotherName:<input type="text" class="_MotherName" [(ngModel)]="motherName" required><br><br>
+
+    Country:
+    <select class="_Country" [(ngModel)]="ddlcountry">
+        <option value="0">Select</option>
+        <option *ngFor="let obj of Country" >
+            {{obj.CountryName}}
+        </option>
+    </select><br>
+    <br>
+
+    State:
+    <select class="_State"  [(ngModel)]="ddlState">
+        <option value="0">Select</option>
+        <option *ngFor="let s of State" >
+        {{s.StateName}}</option>
+    </select>
+    <br>
+    <br>
+
+    City:
+    <select value="select" class="_City"  [(ngModel)]="ddlCity">
+        <option value="0">Select</option>
+        <option *ngFor="let i of City" > {{i.CityName}} </option>
+    </select>
+    <br>
+    <br>
+
+    <p>
+        Gender
+        <input type="Radio" *ngIf="istrue" name="radBtn" id="radMale"  [(ngModel)]="myRadio" value="true" checked>male
+        <input type="Radio" name="radBtn" id="radfemale"  [(ngModel)]="myRadio"  value="false">female
+    </p>
+    <button (click)="fnSubmit()">Submit</button>
+</div>
+
+<!-- --------------------------------------------------------------------- -->
