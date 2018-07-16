@@ -21,6 +21,8 @@ namespace Angular2WebApi.api
     public class ComapnyAndProductController : ApiController
     {
        
+
+
         public class ClsObjCollection : CollectionBase
         {
             public ClsObjCollection()
