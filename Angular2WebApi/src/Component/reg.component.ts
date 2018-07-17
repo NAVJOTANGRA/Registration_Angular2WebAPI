@@ -21,6 +21,7 @@ export class RegistrationComponent {
     myRadio: string='true';
     State: IState[];
     City: ICity[];
+    Error_msg: string="Please enter name";
     public istrue: string = 'true';
     public firstName: string ;
     public middleName: string;

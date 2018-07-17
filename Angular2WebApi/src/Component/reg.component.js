@@ -17,6 +17,7 @@ var RegistrationComponent = /** @class */ (function () {
         this.ServiceObject = ServiceObject;
         this.Title = 'Registration';
         this.myRadio = 'true';
+        this.Error_msg = "Please enter name";
         this.istrue = 'true';
         console.log("Constructor Call");
     }

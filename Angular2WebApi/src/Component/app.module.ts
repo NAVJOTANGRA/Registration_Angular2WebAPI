@@ -9,7 +9,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
     imports: [BrowserModule, HttpModule, FormsModule  ],
     declarations: [AppComponent, RegistrationComponent],
-   
     bootstrap: [AppComponent]
 
 })
